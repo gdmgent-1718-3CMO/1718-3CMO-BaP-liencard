@@ -1,17 +1,35 @@
-/* Navigation
+/* Algemeen
 ---------------------------------------------
 */
-.navbar a {
-    border: none;
+
+h1 {
+  color:$mycolor-1;
 }
 
-.nav-logo {
-    width: 40px;
-    margin-right: 10px;
+h2 {
+  color:$mycolor-3;
+  font-size: 26px;
+  font-weight: $font-weight-light;
+  margin-top:50px;
+  margin-bottom:0px;
 }
 
-.navbar-light .navbar-brand {
-  color: $mycolor-3;
+.balk-m {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 200px;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+
+.hor-line{
+  background-color: $mycolor-2;
+  width: 30px;
+  height: 2px;;
+  margin-bottom: 20px;
 }
 
 /* FOOTER
@@ -37,17 +55,41 @@ body {
 }
 
 footer {
-    background-color: $mycolor-2;
+    margin-top: 50px;
+    background-color: $mycolor-3;
     color: $color-white;
     a {
         color: $color-white;
         &:hover {
-            
+          
         }
     }
-    height: 50px;
-    padding: 10px;
+  }
+
+.midden {
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
 }
+
+.midden img{
+  margin-bottom: 20px;
+  margin-top:10px;
+}
+
+.footer-logo-vzw{
+  margin:15px;
+  width:50px;
+}
+.footer-logo-ahs{
+  margin:15px;
+  width:80px;
+}
+
 
 /* BACK TO TOP
 -------------------------
@@ -60,7 +102,7 @@ footer {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color:$mycolor-3; /* Set a background color */
+  background-color:$mycolor-2; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   //padding: 15px; /* Some padding */
@@ -69,6 +111,6 @@ footer {
   border-radius: 20px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
   &:hover {
-    background-color:$mycolor-2; 
+    background-color:$mycolor-1; 
   }
 }

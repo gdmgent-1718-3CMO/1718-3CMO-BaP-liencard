@@ -9,14 +9,20 @@
 
 - name: Logo
   description: Logo
-  folder: pages/logo/
-  permalink: logo/
+  # folder: pages/logo/
+  permalink: /logo
   # fa-icon: icon-graduation-cap
 
 - name: Kleur
   description: Kleur
-  folder: pages/kleur/
-  permalink: kleur/i
+  # folder: pages/kleur/
+  permalink: /kleur
+  # fa-icon: icon-info
+
+- name: Font
+  description: Font
+  # folder: pages/font
+  permalink: /font
   # fa-icon: icon-info
 
 - name: Styleguide
@@ -24,3 +30,4 @@
   # folder: pages/stijlgids
   permalink: /stijlgids
   # fa-icon: icon-info
+

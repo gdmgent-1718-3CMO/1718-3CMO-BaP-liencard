@@ -26,6 +26,38 @@
 
  }
 
+ /* Navigation Personlized
+---------------------------------------------
+*/
+
+.balk-l{
+    background-color:$mycolor-2;
+    margin-bottom: 0%;
+  }
+  .navbar a {
+      border: none;
+  }
+  
+  .nav-logo {
+      width: 130px;
+      margin-bottom: 35px;
+      margin-top: 50px;
+  }
+  
+  .nav-link {
+    color: white;
+  }
+  
+  .nav-link:hover {
+    font-weight: bold;
+    font-size: 18px;
+    color:white;
+  }
+
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 1.5rem;
+}
+
  /* table of contents
  --------------------------- */
  #toc {
@@ -33,7 +65,14 @@
     .nav {
         display: block;
     }
+    margin-top: 180px;
+ }
 
- } 
+ .nav a {
+    color:$mycolor-2 !important;
+}
 
+.nav a:hover, .nav a:active {
+    color:$mycolor-1 !important;
+}
  
