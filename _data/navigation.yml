@@ -19,15 +19,15 @@
   permalink: /kleur
   # fa-icon: icon-info
 
-- name: Font
+- name: Typografie
   description: Font
   # folder: pages/font
   permalink: /font
   # fa-icon: icon-info
 
-- name: Styleguide
-  description: Stijlgids voor de Huistijlgids
-  # folder: pages/stijlgids
-  permalink: /stijlgids
+- name: Toepassing
+  description: Voorbeelden van toepassingen
+  # folder: pages/toepassing
+  permalink: /toepassing
   # fa-icon: icon-info
 
